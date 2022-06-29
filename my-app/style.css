@@ -1,0 +1,19 @@
+@import "node_modules/ol/ol.css";
+
+html, body, #map {
+  padding:0;
+  margin:0;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.form-inline {
+  position:absolute;
+  z-index:10;
+  height:20px;
+}
